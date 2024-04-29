@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #d60e0e;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 15%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.sobre{
+    background-image: linear-gradient(#d60e0e,#ce3636);
+    color:rgb(255, 249, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.sobre-div-conteudo{
+    width: 35%;
+}
+
+.sobre-imagem{
+    width: 15%;
+}
+
+.sobre-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.niver{
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.niver-div-conteudo{
+    width: 35%;
+}
+
+.niver-imagem{
+    width: 7%;
+}
+
+.niver-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.rodape{
+    background-color: #ce3636;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
+}
+
+.desenvolvedora{
+    color: white;
+}
+
+.Github{
+    color: white;
+}
